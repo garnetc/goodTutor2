@@ -1,0 +1,28 @@
+.slide-img-curve{
+	-webkit-mask-image: url(../images/backborder.png);
+    mask-image: url(../images/backborder.png);
+    -webkit-mask-position: center center;
+    mask-position: center center;
+    -webkit-mask-repeat: no-repeat;
+    mask-repeat: no-repeat;
+    -webkit-mask-size: 100%;
+    mask-size: 100%;
+    position: relative;
+    width: auto;
+    -webkit-mask-position: top right;
+    mask-position: top right;
+    -webkit-mask-repeat: no-repeat;
+    mask-repeat: no-repeat;
+    -webkit-mask-size: auto;
+    mask-size: auto;
+
+
+}
+
+@media only screen and (max-width: 991px){
+
+	.slide-img-curve {
+    -webkit-mask-image: none;
+}
+
+}
